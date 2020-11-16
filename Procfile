@@ -1,1 +1,1 @@
-web: python3 echo.py
+worker: python3 echo.py
