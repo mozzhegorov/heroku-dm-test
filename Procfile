@@ -1,1 +1,1 @@
-web: python 001-echo.py
+web: python3 001-echo.py
