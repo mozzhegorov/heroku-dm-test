@@ -1,7 +1,6 @@
 import os
 import requests
 import datetime
-from boto.s3.connection import S3Connection
 
 
 TOKEN = os.environ['TOKEN']
