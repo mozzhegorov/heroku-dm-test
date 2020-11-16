@@ -1,1 +1,1 @@
-web: python3 echo.py
+run: python3 echo.py
