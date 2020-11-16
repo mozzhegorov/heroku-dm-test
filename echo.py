@@ -1,5 +1,10 @@
+import os
 import requests
 import datetime
+from boto.s3.connection import S3Connection
+
+
+TOKEN = S3Connection(os.environ['TOKEN'])
 
 
 class BotHandler:
@@ -32,7 +37,7 @@ class BotHandler:
         return last_update
 
 
-greet_bot = BotHandler('1000317671:AAFjJ0vPlvICy6dWvtsfuJs8yeS4W2b3tRU')
+greet_bot = BotHandler(TOKEN)
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')
 now = datetime.datetime.now()
 
