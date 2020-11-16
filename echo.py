@@ -66,6 +66,7 @@ def main():
 
         if bool(last_chat_text):
             greet_bot.send_message(last_chat_id, last_chat_text)
+            greet_bot.send_message(last_chat_id, 'hi from heroku')
 
         new_offset = last_update_id + 1
 
