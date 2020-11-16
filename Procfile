@@ -1,1 +1,1 @@
-worker: python3 echo.py
+web: python3 echo.py runserver 0.0.0.0:5000
