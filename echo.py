@@ -4,7 +4,7 @@ import datetime
 from boto.s3.connection import S3Connection
 
 
-TOKEN = S3Connection(os.environ['TOKEN'])
+TOKEN = S3Connection(os.environ['TOKEN_KEY'], os.environ['TOKEN_SECRET'])
 
 
 class BotHandler:
