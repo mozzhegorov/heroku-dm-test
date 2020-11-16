@@ -1,1 +1,1 @@
-web: python3 echo.py runserver 0.0.0.0:5000
+bot: python3 echo.py
